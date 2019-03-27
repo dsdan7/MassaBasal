@@ -33,7 +33,10 @@ body{
   color:white;
   background:radial-gradient(#648880, #293f50);
   margin:10px 10px 10px 10px;
+  font-family: impact;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-#resultado{
-  text-align: center;
+h3{
+ text-align:center;
 }

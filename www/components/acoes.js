@@ -29,7 +29,7 @@ $(document).on('click','#butao', function(){
     result=atividade*(655+(9.6*peso)+(1.8*altura)-(4.7*idade));
     }
     
-    $("#result").val(result);
+    $("#result").val(parseInt(result));
     
 });
 
