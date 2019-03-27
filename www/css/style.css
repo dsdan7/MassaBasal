@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-input{
-  margin-top: 4px;
-  margin-bottom:4px;
-}
-button{
-  font-style: bold;
-  font-family: Impact;
-  font-size: 14px;
-}
-
-=======
-
 .button {
   /*display: inline-block;*/
   padding: 15px 25px;
@@ -35,4 +22,18 @@ button{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
->>>>>>> cd170fd5311a0ff32030a1a6867838fcc6109247
+
+.butao
+{
+  margin-top:50px; 
+
+}
+
+body{
+  color:white;
+  background:radial-gradient(#648880, #293f50);
+  margin:10px 10px 10px 10px;
+}
+#resultado{
+  text-align: center;
+}
