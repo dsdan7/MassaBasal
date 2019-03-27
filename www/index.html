@@ -9,8 +9,8 @@
   <title>PWA Minimum</title>
 
   <!-- Jquery 3.1.1 -->
-  <script src="components/jquery-3.1.1.min.js"></script>
-  <script src="components/.acoes.js"></script>
+  <script src="components/jquery-3.3.1.min.js"></script>
+  <script src="components/acoes.js"></script>
   
   <!-- Boostrap 3.3.7 -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,19 +24,24 @@
   <title> Calculadora Massa Basal</title>
     <div class="container">
       <div class="row">
+        <div class="col-xs-12">
+          <h3>Calculadora de Massa Basal</h3>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-xs-6">Idade:</div>
         <div class="col-xs-6">
-        <input type="text" class="form-control display">
+        <input type="number" class="form-control display idade">
           </div>
           </div>
 
           <div class="row">
         <div class="col-xs-6">Gênero:</div>
         <div class="col-xs-6">
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control genero" id="exampleFormControlSelect1">
         <option>Masculino</option>
         <option>Feminino</option>
-        <option>Prefiro Não Dizer </option>
+        
         </select>
           </div>
           </div>
@@ -44,37 +49,45 @@
       <div class="row">
         <div class="col-xs-6">Altura:</div>
         <div class="col-xs-6">
-        <input type="text" class="form-control display">
+        <input type="number" class="form-control display altura">
           </div>
           </div>
         
       <div class="row">
         <div class="col-xs-6">Peso:</div>
         <div class="col-xs-6">
-        <input type="text" class="form-control display">
+        <input type="number" class="form-control display peso">
         </div>
           </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <center>
-            <h3>Taxa de Atividade</h3
-            </center>
-            </div>
 
             <div class="row">
         <div class="col-xs-6">Taxa de Atividade:</div>
         <div class="col-xs-6">
-        <select class="form-control" id="exampleFormControlSelect1">
-        <option>Pouco</option>
-        <option>muito</option>
-        <option>atleta</option>
+        <select class="form-control atividade" id="exampleFormControlSelect1">
+        <option value=1>Sedentários</option>
+        <option value=2>Levemente Ativo</option>
+        <option value=3>Moderadamente ativo</option>
+        <option value=4>Altamente ativo</option>
+        <option value=5>Extremamente ativo</option>
         </select>
           </div>
           </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <center><input type="button" class="btn-danger butao" id="butao" value="CALCULAR"><br></center>
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-6">
+                Resultado:
+              </div>
+              <div class="col-xs-6">
+                <input type="text" class="result" id="result" readonly>
+              </div>
+              </div>
       
     </div>
     
 
 </body>
-
 </html>

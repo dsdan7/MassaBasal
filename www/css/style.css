@@ -1,2 +1,10 @@
-/**/
+input{
+  margin-top: 4px;
+  margin-bottom:4px;
+}
+button{
+  font-style: bold;
+  font-family: Impact;
+  font-size: 14px;
+}
 
