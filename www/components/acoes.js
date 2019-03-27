@@ -1,4 +1,5 @@
 $(document).on('click','#butao', function(){
+  //teste 
   var result;
     var idade = $(".idade").val();
     var genero = $(".genero").val();
